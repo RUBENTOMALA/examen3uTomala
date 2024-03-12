@@ -1,0 +1,5 @@
+//rootProject.name = 'examentomala
+//include 'microservicios:primero-orquestador'
+//include 'microservicios:resto de microservicios tontos'
+include 'profesores'
+
