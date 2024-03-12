@@ -12,7 +12,7 @@ public class ProductoService {
 
     public Producto buscarPorId(String codigoUnico){
         Producto producto = this.productoRepository.findByCodigoUnico(codigoUnico);
-        if (cliente != null) {
+        if (producto != null) {
             return  producto;
         }
         else {
